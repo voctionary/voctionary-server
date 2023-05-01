@@ -24,7 +24,8 @@ public class EmailSenderServiceImpl implements EmailSenderService {
 
 	private final JavaMailSender mailSender;
 	
-	private static final String LINK_DOMAIN = "http://localhost:3000/voctionary-react#";
+	private static final String LINK_DOMAIN = "https://voctionary.github.io/voctionary-client/#";
+	//"http://localhost:3000/voctionary-react#";
 	
 	@Override
 	@Async
