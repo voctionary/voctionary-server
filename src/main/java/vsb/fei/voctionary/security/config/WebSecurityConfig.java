@@ -56,7 +56,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
 	
 	  private CorsConfigurationSource corsConfigurationSource() {
 	    CorsConfiguration config = new CorsConfiguration();
-	    config.setAllowedOrigins(Arrays.asList("http://localhost:3000", "chrome-extension://" + CHROME_EXTENSION_ID, "https://voctionary.github.io/voctionary-cilent/#"));
+	    config.setAllowedOrigins(Arrays.asList("http://localhost:3000", "chrome-extension://" + CHROME_EXTENSION_ID, "https://voctionary.github.io/voctionary-cilent"));
 	    config.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE"));
 	    config.setAllowedHeaders(Arrays.asList("*"));
 	    config.setAllowCredentials(true);
